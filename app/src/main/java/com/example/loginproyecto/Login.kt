@@ -12,8 +12,8 @@ class Login : AppCompatActivity() {
     private lateinit var passwordEditText: EditText
     private lateinit var loginButton: Button
 
-    private val validUsu = "acascoc098"
-    private val validContra = "acascoc"
+    private val MYUSSER = "acascoc098"
+    private val MYPASS = "acascoc"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         usernameEditText = findViewById(R.id.usuario);
@@ -25,7 +25,7 @@ class Login : AppCompatActivity() {
             val usernameInput = usernameEditText.text.toString()
             val passwordInput = passwordEditText.text.toString()
 
-            if (usernameInput == validUsu && passwordInput == validContra) {
+            if (usernameInput == MYUSSER && passwordInput == MYPASS) {
                 Toast.makeText(this, "Acceso correcto", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, Principal::class.java)
                 startActivity(intent)
