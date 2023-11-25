@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">LoginProyecto</string>
+    <string name="app_name">Introduzca sus datos</string>
+    <string name="usu">Usuario:</string>
+    <string name="usu2">Introduce tu usuario...</string>
+    <string name="contra">Contraseña:</string>
+    <string name="contra2">Introduce tu contraseña...</string>
+    <string name="boton">Acceder</string>
 </resources>
