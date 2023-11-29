@@ -16,10 +16,12 @@ class Login : AppCompatActivity() {
     private val MYPASS = "acascoc"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        usernameEditText = findViewById(R.id.usuario);
-        passwordEditText = findViewById(R.id.contraseña);
-        loginButton = findViewById(R.id.boton)
+
         setContentView(R.layout.log_in)
+
+        usernameEditText = findViewById(R.id.usuario)
+        passwordEditText = findViewById(R.id.contraseña)
+        loginButton = findViewById(R.id.boton)
 
         loginButton.setOnClickListener {
             val usernameInput = usernameEditText.text.toString()

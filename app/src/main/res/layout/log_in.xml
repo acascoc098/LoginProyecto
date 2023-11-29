@@ -44,7 +44,7 @@
             android:src="@drawable/usuario" />
 
         <TextView
-            android:id="@+id/usuario"
+            android:id="@+id/usuariotv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/usu"
@@ -52,14 +52,14 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextUsername"
+            android:id="@+id/usuario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/usu2"
             android:inputType="text" />
 
         <TextView
-            android:id="@+id/contraseña"
+            android:id="@+id/contraseñatv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/contra"
@@ -67,7 +67,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/editTextPassword"
+            android:id="@+id/contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/contra2"
